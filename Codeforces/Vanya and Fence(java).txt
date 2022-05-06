@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class   VanyaAndFence{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+   int n = s.nextInt();
+   int h = s.nextInt();
+   int[] he = new int[n];
+   int x = 0;
+  for(int i = 0 ; i<n ;i++){
+     he[i]=s.nextInt();
+     if(he[i]>h){
+         x++;
+     }
+  }System.out.println(n + x);
+}
+}

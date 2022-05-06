@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class AntonandPolyhedrons{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+    int n = s.nextInt();
+    int nf = 0;
+  s.nextLine();
+  String[] poly = new String[n];
+   for (int i = 0 ; i<n ; i++){
+        poly [i] = s.nextLine();
+   } for (int j = 0 ; j<n ; j++){
+        if(poly[j]=="Icosahedron"){
+          nf = nf + 20;
+      }else if(poly[j]=="Cube"){
+          nf = nf + 6;
+      }else if(poly[j]=="Dodecahedron"){
+          nf = nf + 12;
+      }else if(poly[j]=="Tetrahedron"){
+          nf = nf + 4;
+      }else if(poly[j] == "Octahedron"){
+          nf = nf + 8;
+      }
+   }System.out.println(nf);
+  }
+  }

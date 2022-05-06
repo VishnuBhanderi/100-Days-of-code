@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Train{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+     int n = s.nextInt();
+     int t = s.nextInt();
+     s.nextLine();
+     String seq = s.nextLine();
+    for(int i = 0; i<t ; i++){
+        if(seq.contains("BG")){
+            seq = seq.replace("BG","GB");
+        }
+    }System.out.println(seq);
+    }
+}

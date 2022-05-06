@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class WordCap{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+       int x = s.nextInt();
+       int steps;
+       if(x%5!=0){
+        steps = ((x-x%5)/5)+1;
+       }else {
+           steps = ((x-x%5)/5);
+       }
+        System.out.println(steps);
+}
+}

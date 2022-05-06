@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class GardenerandTree {
+     public static void main(String args[])throws Exception{
+          Scanner s = new Scanner(System.in);
+      int  t= s.nextInt();
+      for(int i = 0 ; i<t ; i++){
+        int n = s.nextInt();
+        int z = s.nextInt();
+        if(n==1||n==2){
+            System.out.println(0);
+           
+        }else {
+        int[] ar = new int[2*(n-1)];
+        for(int j = 0 ; j<2*(n-1) ; j++){
+            ar[j] = s.nextInt();
+        }int[] r = new int[n+1];
+        for(int y = 0 ; y<2*(n-1) ; y++){
+        for(int k= 0 ; k<=n ; k++){
+          if(ar[y]==k){
+              r[k]++;
+          }   
+        }
+         }
+         int co = n;
+         for(int l = 0 ; l<z ; l++){
+             for(int x= 0 ; x<=n ; x++){
+            if(r[x]==1){
+              r[x]--;
+              r[x-1]--;
+              co--;
+            } 
+        }
+         }System.out.println(co);
+      }
+      }
+      }
+     }
+         
+         
+      
+      
+

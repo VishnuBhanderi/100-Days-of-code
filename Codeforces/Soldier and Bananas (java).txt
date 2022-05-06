@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class WordCap{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+       int[] dec = new int[3];
+       for(int i = 0; i<3 ; i++){
+           dec[i]=s.nextInt();
+       }int k = dec[0];
+       int n = dec[1];
+       int w = dec[2];
+       int prize = k*(w*(w+1)/2);
+       int toBorrow = prize - n;
+       if(toBorrow<0){
+           System.out.println(0);
+       }else{
+       System.out.println(toBorrow);
+    }
+    }
+}

@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class WordCap{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+        String line =s.nextLine();
+        String line1 = line.substring(0,1);
+        String line2 = line.substring(1);
+        line1 = line1.toUpperCase();
+        String output = line1 + line2 ;
+        System.out.println(output);
+    }
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class BrainsPhotos{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+    int n = s.nextInt();
+    int m = s.nextInt();
+    int c = 0;
+  char[][]pix = new char[n][m];
+  for(int i = 0 ; i<n ; i++){
+      for(int j = 0 ;j<m ; j++){
+          pix[i][j] = s.next().charAt(0);
+           if(pix[i][j]=='C' || pix[i][j]=='M' || pix[i][j]=='Y' ) {
+          c++;
+       }
+      }
+  }
+  if(c>0){
+       System.out.println("#Color");
+  }else{
+        System.out.println("#Black&White");
+  }
+    }
+  }

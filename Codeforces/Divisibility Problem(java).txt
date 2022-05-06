@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class DivisibilityProblem{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+  int t = s.nextInt();
+  int[][] ab = new int [t][2];
+  int c = 0;
+  for(int i =  0 ; i<t ; i++){
+      for(int j =  0 ; j<2 ; j++){
+      ab [i][j] = s.nextInt();
+  }
+  }for(int k =  0 ; k<t ; k++){
+      if(ab[k][0]%ab[k][1]==0){
+        System.out.println(0);   
+      }else{
+    System.out.println((ab[k][1])-(ab[k][0]%ab[k][1]));
+  }
+  }
+  }
+  }
+ 

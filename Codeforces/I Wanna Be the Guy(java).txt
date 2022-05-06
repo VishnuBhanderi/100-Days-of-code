@@ -1,0 +1,58 @@
+import java.util.Scanner;
+public class IWannaBetheGuy{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+    int n = s.nextInt();
+   
+    int l1 = s.nextInt();
+   
+    int []a1 = new int [l1];
+    for(int i = 0 ; i<l1; i++){
+         if(s.hasNextInt()){
+        a1[i] = s.nextInt();
+  
+         }
+    }
+    
+    int l2 = s.nextInt();
+   
+    int[] a2 = new int[l2];
+    for(int j = 0 ; j<l2; j++){
+         if(s.hasNextInt()){
+        a2[j] = s.nextInt();
+      
+         }
+    }
+    
+    boolean flag = false;
+    for(int k = 1 ; k<=n ; k++){
+       
+       
+        for(int p =0 ;p<l1;p++){
+            if(a1[p]==k){
+                flag = true ;
+                break;
+            }else{
+                flag = false;
+            }
+        }
+        if(flag == false){
+        for(int q =0 ;q<l2;q++){
+            if(a2[q]==k){
+                   flag = true ;
+                break;
+            }else{
+                flag = false;
+            }
+        }
+        } if(flag == false){
+            break;
+        }
+    }if(flag == false){
+         System.out.println( "Oh, my keyboard!");
+    }else{
+         System.out.println( "I become the guy.");
+    }
+    
+}
+}

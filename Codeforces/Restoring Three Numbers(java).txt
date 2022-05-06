@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class RestoringThreeNumbers{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+    int[] ar = new int[4];
+    int ex = 0;
+    int arm = 0;
+    for(int i = 0 ; i<4 ; i++){
+        ar[i] = s.nextInt();
+    } for(int j = 0 ; j<4 ; j++){
+        for(int k = j+1 ; k<4 ; k++){
+            if(ar[j]>ar[k] && ar[j]>arm){
+                arm = ar[j];
+                ex = j;
+            }else if(ar[j]<ar[k] && ar[k]>arm){
+                arm = ar[k];
+                ex = k ;
+            }
+        }
+    }int r = arm ;
+    int c = 0;
+    int[] arn = new int[3];
+  for(int u = 0 ; u<4 ;u++){
+   if(u != ex){
+       arn[c] = ar[u];
+       c++;
+   }
+  }
+    int q = arn[0];
+    int w = arn[1];
+    int e = arn[2];
+    int a = r - w ;
+    int b = r - e ;
+    int z = r - q ;
+    System.out.println(a + " " + b + " " + z );
+    }
+  }
+  

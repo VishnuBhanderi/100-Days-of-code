@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class   UltraFastMathematician{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+   String a = s.nextLine();
+   String b = s.nextLine();
+   int[] c = new int[a.length()];
+   if(a.length()==b.length()){
+       for(int i = 0 ; i<a.length(); i++){
+           if (a.charAt(i)==b.charAt(i)){
+               c[i] = 0;
+           }else{
+               c[i] = 1;
+           }
+       }
+   }for(int j = 0 ; j<a.length() ; j++){
+       System.out.print(c[j]);
+   }
+  }
+} 

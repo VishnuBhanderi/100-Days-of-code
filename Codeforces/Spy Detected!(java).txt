@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class SpyDetected{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+    int t = s.nextInt();
+    for(int i = 0 ; i<t ; i++){
+        int n = s.nextInt();
+        int [] ar = new int [n];
+        for(int j = 0; j<n ; j++){
+            ar[j] = s.nextInt();
+        }int c = 0;
+        int ind = 0;
+        for(int u = 1 ; u<n ; u++){
+            if(Math.abs(ar[0]-ar[u]) != 0){
+                c++;
+                ind = u+1 ;
+            }
+        }if(c==1){
+            System.out.println(ind);
+        }else {
+            System.out.println(1);
+        }
+        
+    }
+    
+  }
+  }

@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class ILoveUsername{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+       int n = s.nextInt();
+       int c =0;
+    int [] p = new int[n];
+         for(int k = 0 ; k<n ; k++){
+             p[k] = s.nextInt();
+         }
+    for(int i = 1 ; i<n ; i++){
+        int x = 0;
+        int y = 0;
+      for(int j = 0 ; j<i ; j++){
+          if(p[i]>p[j]){
+              x++;
+
+          }else  if(p[i]<p[j]){
+              y++;
+             
+          } 
+      }if(x==i || y==i){
+          c++;
+            
+      }
+    }
+ System.out.println(c);
+
+    }  
+
+}

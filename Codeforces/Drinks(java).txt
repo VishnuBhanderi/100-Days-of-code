@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Drinks{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+  int n = s.nextInt();
+  double sp = 0.0 ;
+  double [] p = new double [n]; 
+  for(int i = 0 ; i< n ; i++){
+      p[i] = s.nextDouble(); 
+  }for(int j = 0 ; j<n ; j++){
+      sp = sp + p[j];
+  }double ans = sp/n;
+  System.out.println(ans);
+  }
+} 

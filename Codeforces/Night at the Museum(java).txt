@@ -1,0 +1,97 @@
+package Check;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+import java.io.*;
+
+public class Problem {
+
+	static class FastReader {
+		BufferedReader br;
+		StringTokenizer st;
+
+		public FastReader() {
+			br = new BufferedReader(new InputStreamReader(System.in));
+		}
+
+		String next() {
+			while (st == null || !st.hasMoreElements()) {
+				try {
+					st = new StringTokenizer(br.readLine());
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			return st.nextToken();
+		}
+
+		int nextInt() {
+			return Integer.parseInt(next());
+		}
+
+		long nextLong() {
+			return Long.parseLong(next());
+		}
+
+		double nextDouble() {
+			return Double.parseDouble(next());
+		}
+
+		String nextLine() {
+			String str = "";
+			try {
+				str = br.readLine();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			return str;
+		}
+	}
+
+	public static long findMinRec(long arr[], long i, long sumCalculated, long sumTotal) {
+
+		if (i == 0)
+			return Math.abs((sumTotal - sumCalculated) - sumCalculated);
+
+		return Math.min(findMinRec(arr, i - 1, sumCalculated + arr[(int) (i - 1)], sumTotal),
+				findMinRec(arr, i - 1, sumCalculated, sumTotal));
+	}
+
+	public static int findMin(long arr[], long n) {
+
+		long sumTotal = 0;
+		for (int i = 0; i < n; i++)
+			sumTotal += arr[i];
+
+		return (int) findMinRec(arr, n, 0, sumTotal);
+	}
+
+	public static void main(String[] args) throws Exception {
+
+		FastReader sc = new FastReader();
+		BufferedWriter ou = new BufferedWriter(new OutputStreamWriter(System.out));
+
+		String s = sc.nextLine();
+		int len = s.length();
+		int c = 0 ; 
+		int index1 = 0;
+		int index2 = 0;
+		int diff = 0 ;
+		for(int i = 0 ; i<len ; i++) {
+			index2 = index1;
+			index1 = s.charAt(i) - 'a' ;
+			diff = (int)Math.abs(index2-index1);
+			if(diff>13) {
+				c = c+ 26 - diff;
+			}
+			else {
+				c = c + diff; 
+			}
+		}
+		ou.write(c + "\n");
+		ou.flush();
+	}
+}

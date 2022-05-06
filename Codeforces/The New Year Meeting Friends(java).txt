@@ -1,0 +1,40 @@
+import java.util.Scanner;
+import java.lang.Math;
+public class   TheNewYearMeetingFriends{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+        int amx = 0;
+        int iamx = 0;
+        int iamn = 0;
+        
+            int[] p = new int [3];
+            for (int i = 0  ; i<3 ; i++){
+                p[i] = s.nextInt();
+            }for (int j = 0  ; j<3 ; j++){
+                for (int k = j+1  ; k<3 ; k++){
+                    if(p[j]>p[k] && p[j]>amx){
+                        amx = p[j];
+                        iamx = j ;
+                    }else if(p[j]<p[k] && p[k]>amx){
+                        amx = p[k];
+                        iamx = k ;
+                    }
+                }
+            }int amn = p[1];
+            for (int o = 0  ; o<3 ; o++){
+                for (int q = o+1  ; q<3 ; q++){
+                    if(p[o]>p[q] && p[q]<=amn){
+                        amn = p[q];
+                        iamn = q ;
+                    }else if(p[o]<p[q] && p[o]<=amn){
+                        amn = p[o];
+                        iamn = o ;
+                    }
+                }
+            }int av = 0;
+            for(int y = 0 ; (y!=iamx || y!=iamn ) && y<3; y++){
+                 av = p[y];
+            }int ans = (amx - av) + (av - amn);
+            System.out.println(ans);
+}
+}

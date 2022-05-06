@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class TestClass{
+    public static void main (String args[]) throws Exception{
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        for(int i = 1 ; i<=n ; i++){
+            String lw = s.nextLine();
+            int len =lw.length();
+            if(len<=11){
+                System.out.println(lw);
+            }else if (len>11){
+                System.out.println(lw.charAt(0)+ len-2 + lw.charAt(len-1));
+            }
+        }
+    }
+}

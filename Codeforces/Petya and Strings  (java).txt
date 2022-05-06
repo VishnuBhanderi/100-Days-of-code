@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class BitClass{
+    public static void main (String args[])throws Exception{
+        Scanner s = new Scanner(System.in);
+        String l1 =s.nextLine();
+        String l2 = s.nextLine();
+        String ml1 = l1.toLowerCase();
+        String ml2 = l2.toLowerCase();
+        if(ml1.compareTo(ml2)>0){
+            System.out.println(1);
+        }if (ml1.compareTo(ml2)<0){
+              System.out.println(-1);
+        }if (ml1.compareTo(ml2)==0){
+              System.out.println(0);
+        }
+    }
+}
