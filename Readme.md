@@ -6,6 +6,7 @@
 
 - [Day 1](https://github.com/VishnuBhanderi/Competitive-Coding/blob/master/100%20days%20of%20code/Day1.md)
 - [Day 2](https://github.com/VishnuBhanderi/Competitive-Coding/blob/master/100%20days%20of%20code/Day2.md)
+- [Day 3](https://github.com/VishnuBhanderi/Competitive-Coding/blob/master/100%20days%20of%20code/Day3.md)
 
 ### About_Me
 ---
