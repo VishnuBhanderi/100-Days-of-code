@@ -1,8 +1,8 @@
 # Day 2
 ## Number of Problems Solved: 1
 
-### Problem #1 Food for Animals
-#### [Problem Statement](https://codeforces.com/contest/1675/problem/A)
+### Problem #1 [Food for Animals](https://codeforces.com/contest/1675/problem/A)
+#### 
 
 #### Related Topics:
 Greedy, Math

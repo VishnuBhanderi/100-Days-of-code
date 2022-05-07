@@ -1,8 +1,8 @@
 # Day 1
 ## Number of Problems Solved: 4
 
-### Problem #1 Roller Coaster
-#### [Problem Statement](https://www.codechef.com/START37D/problems/MINHEIGHT)
+### Problem #1 [Roller Coaster](https://www.codechef.com/START37D/problems/MINHEIGHT)
+#### 
 
 #### Related Topics:
 Math
@@ -97,8 +97,8 @@ public class Main {
 ```
 #### Time Taken: 2 mins
 
-### Problem #2 The Mango Truck
-#### [Problem Statement](https://www.codechef.com/START37D/problems/MANGOES)
+### Problem #2 [The Mango Truck](https://www.codechef.com/START37D/problems/MANGOES)
+#### 
 
 #### Related Topics:
 
@@ -189,8 +189,8 @@ public class Main {
 ```
 #### Time Taken: 3 min
 
-### Problem #3 Laptop Recommendation 
-#### [Problem Statement](https://www.codechef.com/START37D/problems/LAPTOPREC)
+### Problem #3 [Laptop Recommendation](https://www.codechef.com/START37D/problems/LAPTOPREC) 
+
 #### Related Topics:
 
 Math
@@ -300,8 +300,8 @@ public class Main {
 ```
 ### Time Taken: 20 min
 
-### Problem #4 Beat the Average  
-#### [Problem Statement](https://www.codechef.com/START37D/problems/ABOVEAVG)
+### Problem #4  [Beat the Average](https://www.codechef.com/START37D/problems/ABOVEAVG) 
+#### 
 #### Related Topics:
 
 Math

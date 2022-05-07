@@ -1,8 +1,7 @@
 # Day 3
 ## Number of Problems Solved: 5
 
-### Problem #1 Football Cup
-#### [Problem Statement](https://www.codechef.com/MAY221D/problems/FOOTCUP/)
+### Problem #1 [Football Cup](https://www.codechef.com/MAY221D/problems/FOOTCUP/)
 
 #### Related Topics:
 Math
@@ -87,8 +86,7 @@ public class Main {
 ```
 #### Time Taken: 1 min
 
-### Problem #2 Miami GP 
-#### [Problem Statement](https://www.codechef.com/MAY221D/problems/F1RULE)
+### Problem #2 [Miami GP](https://www.codechef.com/MAY221D/problems/F1RULE) 
 
 #### Related Topics:
 
@@ -173,8 +171,8 @@ public class Main {
 ```
 #### Time Taken: 2 min
 
-### Problem #3 Sugarcane Juice Business 
-#### [Problem Statement](https://www.codechef.com/MAY221D/problems/SUGARCANE)
+### Problem #3[ Sugarcane Juice Business ](https://www.codechef.com/MAY221D/problems/SUGARCANE) 
+####
 #### Related Topics:
 
 Math
@@ -255,8 +253,8 @@ public class Main {
 ```
 ### Time Taken: 3 mins
 
-### Problem #4 The Attack of Queen  
-#### [Problem Statement](https://www.codechef.com/MAY221D/problems/QUEENATTACK)
+### Problem #4  [The Attack of Queen](https://www.codechef.com/MAY221D/problems/QUEENATTACK)  
+
 #### Related Topics:
 
 Math
@@ -346,8 +344,8 @@ public class Main {
 ```
 ### Time Taken: 10 mins
 
-### Problem #5 Pushpa  
-#### [Problem Statement](https://www.codechef.com/MAY221D/problems/PUSH7PA)
+### Problem #5 [Pushpa ](https://www.codechef.com/MAY221D/problems/PUSH7PA)  
+####
 #### Related Topics:
 
 Math
