@@ -344,7 +344,7 @@ public class Main {
    }
 }
 ```
-### Time Taken: 10 min
+### Time Taken: 10 mins
 
 ### Problem #5 Pushpa  
 #### [Problem Statement](https://www.codechef.com/MAY221D/problems/PUSH7PA)
@@ -457,4 +457,4 @@ public class Main {
 }
 
 ```
-### Time Taken: 30 min
+### Time Taken: 30 mins
