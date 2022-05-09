@@ -7,8 +7,8 @@
 - [Day 1](https://github.com/VishnuBhanderi/Competitive-Coding/blob/master/100%20days%20of%20code/Day1.md)
 - [Day 2](https://github.com/VishnuBhanderi/Competitive-Coding/blob/master/100%20days%20of%20code/Day2.md)
 - [Day 3](https://github.com/VishnuBhanderi/Competitive-Coding/blob/master/100%20days%20of%20code/Day3.md)
-- [Day 4](https://github.com/VishnuBhanderi/Competitive-Coding/blob/master/100%20days%20of%20code/Day4.md)
-- [Day 5](https://github.com/VishnuBhanderi/Competitive-Coding/blob/master/100%20days%20of%20code/Day5.md)
+- [Day 4](https://github.com/VishnuBhanderi/Competitive_Coding/blob/master/100%20Days%20of%20Code/day4.md)
+- [Day 5](https://github.com/VishnuBhanderi/Competitive_Coding/blob/master/100%20Days%20of%20Code/day5.md)
 
 
 ### About_Me
